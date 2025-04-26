@@ -1,45 +1,43 @@
-import clsx from 'clsx';
-import Heading from '@theme/Heading';
-import styles from './styles.module.css';
+import clsx from "clsx";
+import Heading from "@theme/Heading";
+import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "App Store Guidelines",
+    imageSrc: require("@site/static/img/app-store-guideline.png").default,
+    description: (
+      <>Building the app is easy. Surviving the review is the real challenge.</>
+    ),
+  },
+  {
+    title: "Technical debts",
+    imageSrc: require("@site/static/img/technical-debt.jpg").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        You either fix technical debt early, or live long enough to call for a
+        full rewrite
+        <br />
+        <em style={{ fontSize: "0.8rem" }}>
+          - You Either Die A Hero, Or You Live Long Enough To See Yourself
+          Become The Villain.
+        </em>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    title: 'Clients requesting "small changes"',
+    imageSrc: require("@site/static/img/client-request-small-changes.jpg")
+      .default,
+    description: <>Just a small change... that breaks the whole page.</>,
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ imageSrc, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img style={{ height: 280 }} src={imageSrc} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
