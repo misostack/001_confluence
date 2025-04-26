@@ -1,41 +1,24 @@
-# Website
+# Confluence
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+1. [x] Development
+2. [x] Deployment
+3. [x] Topics
+4. [x] Docusaurus Cheatsheet
+5. [x] Contact Information
 
-### Installation
+## Development
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
+```sh
+npm run dev
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Deployment
 
-### Build
+## Topics
 
-```
-$ yarn build
-```
+## Docusaurus Cheatsheet
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+1. [Navbar Logo](https://docusaurus.io/docs/api/themes/configuration#navbar-logo)
+2. [Navbar Items](https://docusaurus.io/docs/api/themes/configuration#navbar-items)
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Contact Information
