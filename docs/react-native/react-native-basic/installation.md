@@ -79,3 +79,5 @@ adb devices
 ## References
 
 - [Android Environment setup](https://stackoverflow.com/questions/62797240/reactnative-cant-locate-android-sdk)
+- [Known Issue Hermes engine and direct debugging](https://github.com/microsoft/vscode-react-native/issues/2254)
+- [Debug layout with fbflibber](https://fbflipper.com/docs/features/)
