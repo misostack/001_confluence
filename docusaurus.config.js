@@ -11,7 +11,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Refactor Everything",
-  tagline: "Nothing is difficult, only fear is not persistent",
+  tagline: "Refactor today, lead tomorrow.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
