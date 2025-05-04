@@ -99,6 +99,12 @@ const config = {
                 sidebarId: "flutterSidebar",
                 to: "/docs/flutter",
               },
+              {
+                label: "IOS",
+                type: "docSidebar",
+                sidebarId: "iosSidebar",
+                to: "/docs/ios",
+              },
             ],
           },
           // {
