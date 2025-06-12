@@ -107,6 +107,19 @@ const config = {
               },
             ],
           },
+          {
+            type: "dropdown",
+            label: "Devops",
+            position: "left",
+            items: [
+              {
+                label: "Google Cloud Platform (GCP)",
+                type: "docSidebar",
+                sidebarId: "gcpSidebar",
+                to: "/docs/gcp",
+              },
+            ],
+          },
           // {
           //   type: "docSidebar",
           //   sidebarId: "tutorialSidebar",
