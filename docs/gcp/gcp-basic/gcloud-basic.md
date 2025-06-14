@@ -152,3 +152,13 @@ images: ["gcr.io/${PROJECT_ID}/${_SERVICE_NAME}"]
 options:
   logging: CLOUD_LOGGING_ONLY
 ```
+
+### BigQuery
+
+- https://cloud.google.com/bigquery/docs/connect-to-sql?_gl=1*apy037*_up*MQ..&gclid=Cj0KCQjwmK_CBhCEARIsAMKwcD60gNTJH1ySEmhr4RA9X3SiR4ox4ucglr5-Ql0hLVNk0DFaPfDE1lUaAm4TEALw_wcB&gclsrc=aw.ds#console_1
+
+```sh
+service-21280600284@gcp-sa-bigqueryconnection.iam.gserviceaccount.com
+
+service-21280600284@gcp-sa-bigqueryconnection.iam.gserviceaccount.com
+```

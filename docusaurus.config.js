@@ -88,6 +88,18 @@ const config = {
             position: "left",
             items: [
               {
+                label: "Android",
+                type: "docSidebar",
+                sidebarId: "androidSidebar",
+                to: "/docs/android",
+              },
+              {
+                label: "IOS",
+                type: "docSidebar",
+                sidebarId: "iosSidebar",
+                to: "/docs/ios",
+              },
+              {
                 label: "React Native",
                 type: "docSidebar",
                 sidebarId: "reactNativeSidebar",
@@ -98,12 +110,6 @@ const config = {
                 type: "docSidebar",
                 sidebarId: "flutterSidebar",
                 to: "/docs/flutter",
-              },
-              {
-                label: "IOS",
-                type: "docSidebar",
-                sidebarId: "iosSidebar",
-                to: "/docs/ios",
               },
             ],
           },
