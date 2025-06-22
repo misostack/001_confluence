@@ -162,3 +162,5 @@ service-21280600284@gcp-sa-bigqueryconnection.iam.gserviceaccount.com
 
 service-21280600284@gcp-sa-bigqueryconnection.iam.gserviceaccount.com
 ```
+
+![alt text](image.png)
